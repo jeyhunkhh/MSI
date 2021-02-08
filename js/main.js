@@ -198,4 +198,8 @@ $(document).ready(function(){
             
         })
     }
+
+    if($("#category-content").length){
+        
+    }
 })

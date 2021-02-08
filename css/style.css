@@ -146,24 +146,6 @@ a {
   height: 150px;
 }
 
-/* .products{
-  position: relative;
-  overflow: hidden;
-  overflow-y: visible;  
-} */
-
-/* .products::-webkit-scrollbar {
-  display: none;
-} */
-
-/* .products .owl-carousel .owl-stage-outer{
-  overflow: visible !important;
-} */
-/* 
-.product:hover{
-  position: absolute;
-} */
-
 .product:hover .card{
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.14);
 }
@@ -498,6 +480,7 @@ footer{
   width: 380px;
   border: 2px solid white;
   margin-right: 10px;
+  color: white;
 }
 
 .footer-top .header form{
@@ -539,4 +522,128 @@ footer{
 .footer-bottmm p{
  font-size: 12px;
  color: rgba(255, 255, 255, 0.514);
+}
+
+#breadcrumb{
+  padding: 20px 0px;
+}
+
+#breadcrumb .item ul{
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+
+#breadcrumb .item ul li{
+  margin-right: 30px;
+  position: relative;
+}
+
+#breadcrumb .item ul li a{
+  font-size: 14px;
+  color: black;
+}
+
+#breadcrumb .item ul li a.active{
+  color: rgba(0, 0, 0, 0.479);
+}
+
+#breadcrumb .item ul li::before{
+  font-family: "Font Awesome 5 Free";
+   content: "\f054";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight: 900;
+   position: absolute;
+   right: -20px;
+   font-size: 8px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+#breadcrumb .item ul li:last-child::before{
+  content: "";
+}
+
+#category .category-header h3{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#category .category-header span{
+  line-height: 42px;
+  font-weight: 700;
+}
+
+#category .category-header p{
+  line-height: 42px;
+  color: #8C8C8C;
+}
+
+#category .category-header .sort{
+  border: 2px solid #8c8c8c9a;
+  height: 45px;
+}
+
+#category .category-header .select{
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  border: none;
+  font-weight: bold;
+  outline: none;
+}
+
+#category .category-header .select-type{
+  font-size: 13px;
+  font-weight: 500;
+  color:#8C8C8C;
+  width: 75px;
+  line-height: 42px;
+  
+}
+
+#category .category-content .filter{
+  padding: 20px 20px;
+  background-color: #F5F7FF;
+}
+
+#category .category-content .filter .title button{
+  border: 2px solid black;
+  color:#666666;
+  margin-top: 20px;
+  padding: 10px 0px; 
+  font-size: 16px;
+}
+
+#category .category-content .filter .title  h5{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#category .category-content .filter .category-item h5{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#list{
+  display: none;
+}
+
+#category .category-content .filter .category-item h5 .icon{
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+#category .category-content .filter .category-item ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#category .category-content .filter .category-item ul li{
+  font-size: 15px;
+  margin-bottom: 10px;
 }
