@@ -199,7 +199,45 @@ $(document).ready(function(){
         })
     }
 
-    if($("#category-content").length){
+    if($("#category").length){
+        $("#category .category-item h5").click(function() {
+            if($( "#category .category-item i").hasClass("fa-angle-down")){
+                $( "#category .category-item i").removeClass("fa-angle-down").addClass("fa-angle-up")
+            }
+            else{
+                $( "#category .category-item i").removeClass("fa-angle-up").addClass("fa-angle-down")
+            }
+            $( "#category .category-item .list").slideToggle();
+        });
+
+        $("#category .price h5").click(function() {
+            if($( "#category .price i").hasClass("fa-angle-down")){
+                $( "#category .price i").removeClass("fa-angle-down").addClass("fa-angle-up")
+            }
+            else{
+                $( "#category .price i").removeClass("fa-angle-up").addClass("fa-angle-down")
+            }
+            $( "#category .price .list").slideToggle();
+        });
+
+        $("#category .color h5").click(function() {
+            if($( "#category .color i").hasClass("fa-angle-down")){
+                $( "#category .color i").removeClass("fa-angle-down").addClass("fa-angle-up")
+            }
+            else{
+                $( "#category .color i").removeClass("fa-angle-up").addClass("fa-angle-down")
+            }
+            $("#category .color .list").slideToggle();
+        });
         
+        $("#category .filter-name h5").click(function() {
+            if($( "#category .filter-name i").hasClass("fa-angle-down")){
+                $( "#category .filter-name i").removeClass("fa-angle-down").addClass("fa-angle-up")
+            }
+            else{
+                $( "#category .filter-name i").removeClass("fa-angle-up").addClass("fa-angle-down")
+            }
+            $("#category .filter-name .list").slideToggle();
+        });
     }
 })

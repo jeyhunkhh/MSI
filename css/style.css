@@ -608,42 +608,174 @@ footer{
 #category .category-content .filter{
   padding: 20px 20px;
   background-color: #F5F7FF;
+  margin-bottom: 10px;
 }
 
-#category .category-content .filter .title button{
-  border: 2px solid black;
+#category .category-content .brands .title{
+  padding: 20px 20px;
+  background-color: #F5F7FF;
+}
+
+#category .category-content .filter .title button,
+#category .category-content .brands .title button{
+  border: 2px solid rgba(0, 0, 0, 0.548);
   color:#666666;
   margin-top: 20px;
   padding: 10px 0px; 
   font-size: 16px;
 }
 
-#category .category-content .filter .title  h5{
+#category .category-content .filter .title  h5,
+#category .category-content .brands .title  h5{
   font-weight: bold;
   font-size: 18px;
 }
 
-#category .category-content .filter .category-item h5{
+#category .category-content .filter .category-item h5,
+#category .category-content .filter .price h5,
+#category .category-content .filter .color h5,
+#category .category-content .filter .filter-name h5{
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
 }
 
 #list{
   display: none;
 }
 
-#category .category-content .filter .category-item h5 .icon{
+#category .category-content .filter .category-item h5 .icon,
+#category .category-content .filter .price h5 .icon,
+#category .category-content .filter .color h5 .icon,
+#category .category-content .filter .filter-name h5 .icon{
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 10px;
 }
 
-#category .category-content .filter .category-item ul{
+#category .category-content .filter .category-item ul,
+#category .category-content .filter .price ul,
+#category .category-content .filter .color ul,
+#category .category-content .filter .filter-name ul{
   list-style-type: none;
   padding-left: 0px;
+  margin-bottom: 20px;
 }
 
-#category .category-content .filter .category-item ul li{
+#category .category-content .filter .category-item ul li,
+#category .category-content .filter .price ul li,
+#category .category-content .filter .filter-name ul li{
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+#category .category-content .filter .color ul li span{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+#category .category-content .filter .color ul li{
+padding: 2px;
+  line-height: 6px;
+}
+
+#category .category-content .filter .color ul li.active{
+  border: 1px solid gray;
+}
+
+#category .category-content .filter .apply-filter{
+  background: #0156ff;
+  color: white;
+}
+
+#category .category-content .brands .brand img{
+  max-width: 100px;
+  padding: 15px;
+}
+#category .category-content .brands .brand .bg{
+  border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+#category .category-content .compare-products,
+#category .category-content .wish-list{
+  padding: 20px 20px;
+  background-color: #F5F7FF;
+  
+}
+
+
+#category .category-content .compare-products h5,
+#category .category-content .wish-list h5{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#category .category-content .compare-products p,
+#category .category-content .wish-list p{
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+#category .category-content .poster img{
+width: 100%;
+}
+
+#category .category-content .pure{
+  border: 2px solid rgba(0, 0, 0, 0.171);
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#category .category-content .pure h5{
+  font-weight: 600;
+  font-size: 14px;  
+  color: black;
+  margin-bottom: 0;
+}
+
+#category .category-content .pure h5 span{
+  font-weight: 400;
+  color: #8C8C8C;
+  margin-left: 5px;
+}
+
+#category .category-content .pure h5 i{
+  font-size: 22px;
+  color: #C94D3F;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+#category .category-content .product:hover{
+  position: absolute;
+  z-index: 1;
+}
+
+#category .category-content .pagination span{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    border: 3px solid #8C8C8C;
+    border-radius: 50%;
+    color: #8C8C8C;
+    margin: 10px;
+    text-align: center;
+}
+
+#category .category-content .pagination span.dots{
+  border:none;
+  width: 20px;
+    height: 50px;
+    
+}
+
+#category .category-content .pagination span.active{
+    border: 1px solid #EBEBEB;
+    background-color: #EBEBEB;
+    color: black;
+    font-weight: 600;
 }
