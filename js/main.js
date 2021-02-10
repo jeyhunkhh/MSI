@@ -240,4 +240,22 @@ $(document).ready(function(){
             $("#category .filter-name .list").slideToggle();
         });
     }
+
+    if($(".bottom-header").length){
+        console.log("work 1")
+        if(window.innerWidth < 991.98){
+            $(".navbar-toggler").click(function(){
+                console.log("work -2");
+                if(!$(".bottom-header .navbar .navbar-collapse").hasClass("show")){
+                    $(".user-basket").removeClass("d-flex").addClass("d-none")
+                }else{
+                    console.log("work-3");
+                    $(".user-basket").removeClass("d-none").addClass("d-flex")
+                }
+            })
+            
+            
+
+        };
+    }
 })

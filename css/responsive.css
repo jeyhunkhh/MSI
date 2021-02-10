@@ -1,0 +1,164 @@
+@media (max-width: 991.98px) {
+  .top-header .text {
+    display: none;
+  }
+  .top-header .logo {
+    display: inline !important;
+    margin-right: 30px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    background-color: #0156ff;
+    border-radius: 50% 50% 0 0;
+  }
+
+  .top-header p {
+    display: inline;
+  }
+
+  .bottom-header .navbar-brand {
+    display: none;
+  }
+
+  .bottom-header .navbar {
+    background-color: #0156ff !important;
+  }
+
+  .bottom-header .user-basket button {
+    display: none;
+  }
+  .bottom-header .user-basket form {
+    margin: 0px;
+  }
+
+  .bottom-header .user-basket input {
+    width: 400px;
+    margin-right: 80px;
+    padding: 10px 0px;
+    padding-left: 40px;
+    font-size: 14px;
+    border: none;
+    display: block !important;
+  }
+
+  .bottom-header .user-basket {
+    position: relative;
+  }
+
+  .bottom-header .user-basket::before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    top:50%;
+    transform: translateY(-50%);
+    left: 2%;
+    color: #8c8c8c;
+  }
+
+  .bottom-header .navbar .collapse .button{
+      display: none;
+  }
+  
+  #custome .item-header h4,
+  #laptops .item-header h4,
+  #desktops .item-header h4,
+  #gaming .item-header h4{
+    font-size: 15px;
+    top: 3rem;
+    left: 27%;
+  }
+
+  #custome .item-header a,
+  #laptops .item-header a,
+  #desktops .item-header a,
+  #gaming .item-header a{
+    bottom: 2rem;
+    left: 19%;
+    font-size: 12px;
+  }
+
+  #custome .item-header img,
+  #laptops .item-header img,
+  #desktops .item-header img,
+  #gaming .item-header img{
+    max-width: 100% !important;
+  }
+
+  #news{
+      display: none;
+  }
+
+  #testimonial .item{
+    padding: 25px 37px !important;
+  }
+
+  .product img{
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .product .icons i{
+      font-size: 8px  !important;
+  } 
+
+  .product .icons {
+      font-size: 8px  !important;
+  }
+
+  .product .card-body p{
+      font-size: 12px !important;
+      margin: 8px 0px !important;
+  }
+
+  .product .basket{
+    margin: 2px !important;
+  }
+
+  .category-header .hide{
+      display: none !important;
+  }
+
+}
+
+@media (max-width: 767.98px){
+  .bottom-header .user-basket input{
+    width: 150px !important;
+    margin-right: 20px;
+  }
+
+  #custome .item-header img,
+  #laptops .item-header img,
+  #desktops .item-header img,
+  #gaming .item-header img{
+    max-width: 100% !important;
+    height: 80px;
+  }
+
+
+  #custome .item-header h4,
+  #laptops .item-header h4,
+  #desktops .item-header h4,
+  #gaming .item-header h4{
+    font-size: 15px;
+    top: 1rem;
+    left: 25%;
+  }
+
+  #custome .item-header a,
+  #laptops .item-header a,
+  #desktops .item-header a,
+  #gaming .item-header a{
+    bottom: 1rem;
+    left: 35%;
+    font-size: 12px;
+  }
+
+  .footer-top .header input{
+     width: 320px !important;
+     margin-bottom: 10px !important;
+  }
+}
