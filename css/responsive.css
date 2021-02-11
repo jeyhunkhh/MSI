@@ -125,6 +125,10 @@
 }
 
 @media (max-width: 767.98px){
+  .top-header .call-us{
+    display: none;
+  }
+
   .bottom-header .user-basket input{
     width: 150px !important;
     margin-right: 20px;
@@ -160,5 +164,38 @@
   .footer-top .header input{
      width: 320px !important;
      margin-bottom: 10px !important;
+  }
+
+  #banner{
+    display: none;
+  }
+
+  #breadcrumb ul{
+    flex-wrap: wrap;
+    
+  }
+
+  #breadcrumb ul li a{
+    font-size: 13px !important;
+  }
+
+  #category .category-header{
+    display: none !important;
+  }
+
+  #category .category-content .brands{
+    display: none !important;
+  }
+
+  #category .category-content .title-content{
+    display: none !important;
+  }
+
+  #category .category-content .content{
+    display: none ;
+  }
+
+  .product .card-body p{
+    width: 100%;
   }
 }
